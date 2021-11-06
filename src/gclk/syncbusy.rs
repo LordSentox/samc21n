@@ -31,23 +31,23 @@ impl core::ops::Deref for SWRST_R {
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum GENCTRL0_A {
     #[doc = "1: Generic clock generator 0"]
-    GCLK0 = 1,
-    #[doc = "1: Generic clock generator 1"]
-    GCLK1 = 1,
-    #[doc = "1: Generic clock generator 2"]
-    GCLK2 = 1,
-    #[doc = "1: Generic clock generator 3"]
-    GCLK3 = 1,
-    #[doc = "1: Generic clock generator 4"]
-    GCLK4 = 1,
-    #[doc = "1: Generic clock generator 5"]
-    GCLK5 = 1,
-    #[doc = "1: Generic clock generator 6"]
-    GCLK6 = 1,
-    #[doc = "1: Generic clock generator 7"]
-    GCLK7 = 1,
-    #[doc = "1: Generic clock generator 8"]
-    GCLK8 = 1,
+    GCLK0 = 0x1,
+    #[doc = "2: Generic clock generator 1"]
+    GCLK1 = 0x2,
+    #[doc = "3: Generic clock generator 2"]
+    GCLK2 = 0x4,
+    #[doc = "4: Generic clock generator 3"]
+    GCLK3 = 0x8,
+    #[doc = "5: Generic clock generator 4"]
+    GCLK4 = 0x10,
+    #[doc = "6: Generic clock generator 5"]
+    GCLK5 = 0x20,
+    #[doc = "7: Generic clock generator 6"]
+    GCLK6 = 0x40,
+    #[doc = "8: Generic clock generator 7"]
+    GCLK7 = 0x80,
+    #[doc = "9: Generic clock generator 8"]
+    GCLK8 = 0x100,
 }
 impl From<GENCTRL0_A> for bool {
     #[inline(always)]
@@ -134,23 +134,23 @@ impl core::ops::Deref for GENCTRL0_R {
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum GENCTRL1_A {
     #[doc = "1: Generic clock generator 0"]
-    GCLK0 = 1,
-    #[doc = "1: Generic clock generator 1"]
-    GCLK1 = 1,
-    #[doc = "1: Generic clock generator 2"]
-    GCLK2 = 1,
-    #[doc = "1: Generic clock generator 3"]
-    GCLK3 = 1,
-    #[doc = "1: Generic clock generator 4"]
-    GCLK4 = 1,
-    #[doc = "1: Generic clock generator 5"]
-    GCLK5 = 1,
-    #[doc = "1: Generic clock generator 6"]
-    GCLK6 = 1,
-    #[doc = "1: Generic clock generator 7"]
-    GCLK7 = 1,
-    #[doc = "1: Generic clock generator 8"]
-    GCLK8 = 1,
+    GCLK0 = 0x1,
+    #[doc = "2: Generic clock generator 1"]
+    GCLK1 = 0x2,
+    #[doc = "3: Generic clock generator 2"]
+    GCLK2 = 0x4,
+    #[doc = "4: Generic clock generator 3"]
+    GCLK3 = 0x8,
+    #[doc = "5: Generic clock generator 4"]
+    GCLK4 = 0x10,
+    #[doc = "6: Generic clock generator 5"]
+    GCLK5 = 0x20,
+    #[doc = "7: Generic clock generator 6"]
+    GCLK6 = 0x40,
+    #[doc = "8: Generic clock generator 7"]
+    GCLK7 = 0x80,
+    #[doc = "9: Generic clock generator 8"]
+    GCLK8 = 0x100,
 }
 impl From<GENCTRL1_A> for bool {
     #[inline(always)]
@@ -237,23 +237,23 @@ impl core::ops::Deref for GENCTRL1_R {
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum GENCTRL2_A {
     #[doc = "1: Generic clock generator 0"]
-    GCLK0 = 1,
-    #[doc = "1: Generic clock generator 1"]
-    GCLK1 = 1,
-    #[doc = "1: Generic clock generator 2"]
-    GCLK2 = 1,
-    #[doc = "1: Generic clock generator 3"]
-    GCLK3 = 1,
-    #[doc = "1: Generic clock generator 4"]
-    GCLK4 = 1,
-    #[doc = "1: Generic clock generator 5"]
-    GCLK5 = 1,
-    #[doc = "1: Generic clock generator 6"]
-    GCLK6 = 1,
-    #[doc = "1: Generic clock generator 7"]
-    GCLK7 = 1,
-    #[doc = "1: Generic clock generator 8"]
-    GCLK8 = 1,
+    GCLK0 = 0x1,
+    #[doc = "2: Generic clock generator 1"]
+    GCLK1 = 0x2,
+    #[doc = "3: Generic clock generator 2"]
+    GCLK2 = 0x4,
+    #[doc = "4: Generic clock generator 3"]
+    GCLK3 = 0x8,
+    #[doc = "5: Generic clock generator 4"]
+    GCLK4 = 0x10,
+    #[doc = "6: Generic clock generator 5"]
+    GCLK5 = 0x20,
+    #[doc = "7: Generic clock generator 6"]
+    GCLK6 = 0x40,
+    #[doc = "8: Generic clock generator 7"]
+    GCLK7 = 0x80,
+    #[doc = "9: Generic clock generator 8"]
+    GCLK8 = 0x100,
 }
 impl From<GENCTRL2_A> for bool {
     #[inline(always)]
@@ -340,23 +340,23 @@ impl core::ops::Deref for GENCTRL2_R {
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum GENCTRL3_A {
     #[doc = "1: Generic clock generator 0"]
-    GCLK0 = 1,
-    #[doc = "1: Generic clock generator 1"]
-    GCLK1 = 1,
-    #[doc = "1: Generic clock generator 2"]
-    GCLK2 = 1,
-    #[doc = "1: Generic clock generator 3"]
-    GCLK3 = 1,
-    #[doc = "1: Generic clock generator 4"]
-    GCLK4 = 1,
-    #[doc = "1: Generic clock generator 5"]
-    GCLK5 = 1,
-    #[doc = "1: Generic clock generator 6"]
-    GCLK6 = 1,
-    #[doc = "1: Generic clock generator 7"]
-    GCLK7 = 1,
-    #[doc = "1: Generic clock generator 8"]
-    GCLK8 = 1,
+    GCLK0 = 0x1,
+    #[doc = "2: Generic clock generator 1"]
+    GCLK1 = 0x2,
+    #[doc = "3: Generic clock generator 2"]
+    GCLK2 = 0x4,
+    #[doc = "4: Generic clock generator 3"]
+    GCLK3 = 0x8,
+    #[doc = "5: Generic clock generator 4"]
+    GCLK4 = 0x10,
+    #[doc = "6: Generic clock generator 5"]
+    GCLK5 = 0x20,
+    #[doc = "7: Generic clock generator 6"]
+    GCLK6 = 0x40,
+    #[doc = "8: Generic clock generator 7"]
+    GCLK7 = 0x80,
+    #[doc = "9: Generic clock generator 8"]
+    GCLK8 = 0x100,
 }
 impl From<GENCTRL3_A> for bool {
     #[inline(always)]
@@ -443,23 +443,23 @@ impl core::ops::Deref for GENCTRL3_R {
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum GENCTRL4_A {
     #[doc = "1: Generic clock generator 0"]
-    GCLK0 = 1,
-    #[doc = "1: Generic clock generator 1"]
-    GCLK1 = 1,
-    #[doc = "1: Generic clock generator 2"]
-    GCLK2 = 1,
-    #[doc = "1: Generic clock generator 3"]
-    GCLK3 = 1,
-    #[doc = "1: Generic clock generator 4"]
-    GCLK4 = 1,
-    #[doc = "1: Generic clock generator 5"]
-    GCLK5 = 1,
-    #[doc = "1: Generic clock generator 6"]
-    GCLK6 = 1,
-    #[doc = "1: Generic clock generator 7"]
-    GCLK7 = 1,
-    #[doc = "1: Generic clock generator 8"]
-    GCLK8 = 1,
+    GCLK0 = 0x1,
+    #[doc = "2: Generic clock generator 1"]
+    GCLK1 = 0x2,
+    #[doc = "3: Generic clock generator 2"]
+    GCLK2 = 0x4,
+    #[doc = "4: Generic clock generator 3"]
+    GCLK3 = 0x8,
+    #[doc = "5: Generic clock generator 4"]
+    GCLK4 = 0x10,
+    #[doc = "6: Generic clock generator 5"]
+    GCLK5 = 0x20,
+    #[doc = "7: Generic clock generator 6"]
+    GCLK6 = 0x40,
+    #[doc = "8: Generic clock generator 7"]
+    GCLK7 = 0x80,
+    #[doc = "9: Generic clock generator 8"]
+    GCLK8 = 0x100,
 }
 impl From<GENCTRL4_A> for bool {
     #[inline(always)]
@@ -546,23 +546,23 @@ impl core::ops::Deref for GENCTRL4_R {
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum GENCTRL5_A {
     #[doc = "1: Generic clock generator 0"]
-    GCLK0 = 1,
-    #[doc = "1: Generic clock generator 1"]
-    GCLK1 = 1,
-    #[doc = "1: Generic clock generator 2"]
-    GCLK2 = 1,
-    #[doc = "1: Generic clock generator 3"]
-    GCLK3 = 1,
-    #[doc = "1: Generic clock generator 4"]
-    GCLK4 = 1,
-    #[doc = "1: Generic clock generator 5"]
-    GCLK5 = 1,
-    #[doc = "1: Generic clock generator 6"]
-    GCLK6 = 1,
-    #[doc = "1: Generic clock generator 7"]
-    GCLK7 = 1,
-    #[doc = "1: Generic clock generator 8"]
-    GCLK8 = 1,
+    GCLK0 = 0x1,
+    #[doc = "2: Generic clock generator 1"]
+    GCLK1 = 0x2,
+    #[doc = "3: Generic clock generator 2"]
+    GCLK2 = 0x4,
+    #[doc = "4: Generic clock generator 3"]
+    GCLK3 = 0x8,
+    #[doc = "5: Generic clock generator 4"]
+    GCLK4 = 0x10,
+    #[doc = "6: Generic clock generator 5"]
+    GCLK5 = 0x20,
+    #[doc = "7: Generic clock generator 6"]
+    GCLK6 = 0x40,
+    #[doc = "8: Generic clock generator 7"]
+    GCLK7 = 0x80,
+    #[doc = "9: Generic clock generator 8"]
+    GCLK8 = 0x100,
 }
 impl From<GENCTRL5_A> for bool {
     #[inline(always)]
@@ -649,23 +649,23 @@ impl core::ops::Deref for GENCTRL5_R {
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum GENCTRL6_A {
     #[doc = "1: Generic clock generator 0"]
-    GCLK0 = 1,
-    #[doc = "1: Generic clock generator 1"]
-    GCLK1 = 1,
-    #[doc = "1: Generic clock generator 2"]
-    GCLK2 = 1,
-    #[doc = "1: Generic clock generator 3"]
-    GCLK3 = 1,
-    #[doc = "1: Generic clock generator 4"]
-    GCLK4 = 1,
-    #[doc = "1: Generic clock generator 5"]
-    GCLK5 = 1,
-    #[doc = "1: Generic clock generator 6"]
-    GCLK6 = 1,
-    #[doc = "1: Generic clock generator 7"]
-    GCLK7 = 1,
-    #[doc = "1: Generic clock generator 8"]
-    GCLK8 = 1,
+    GCLK0 = 0x1,
+    #[doc = "2: Generic clock generator 1"]
+    GCLK1 = 0x2,
+    #[doc = "3: Generic clock generator 2"]
+    GCLK2 = 0x4,
+    #[doc = "4: Generic clock generator 3"]
+    GCLK3 = 0x8,
+    #[doc = "5: Generic clock generator 4"]
+    GCLK4 = 0x10,
+    #[doc = "6: Generic clock generator 5"]
+    GCLK5 = 0x20,
+    #[doc = "7: Generic clock generator 6"]
+    GCLK6 = 0x40,
+    #[doc = "8: Generic clock generator 7"]
+    GCLK7 = 0x80,
+    #[doc = "9: Generic clock generator 8"]
+    GCLK8 = 0x100,
 }
 impl From<GENCTRL6_A> for bool {
     #[inline(always)]
@@ -752,23 +752,23 @@ impl core::ops::Deref for GENCTRL6_R {
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum GENCTRL7_A {
     #[doc = "1: Generic clock generator 0"]
-    GCLK0 = 1,
-    #[doc = "1: Generic clock generator 1"]
-    GCLK1 = 1,
-    #[doc = "1: Generic clock generator 2"]
-    GCLK2 = 1,
-    #[doc = "1: Generic clock generator 3"]
-    GCLK3 = 1,
-    #[doc = "1: Generic clock generator 4"]
-    GCLK4 = 1,
-    #[doc = "1: Generic clock generator 5"]
-    GCLK5 = 1,
-    #[doc = "1: Generic clock generator 6"]
-    GCLK6 = 1,
-    #[doc = "1: Generic clock generator 7"]
-    GCLK7 = 1,
-    #[doc = "1: Generic clock generator 8"]
-    GCLK8 = 1,
+    GCLK0 = 0x1,
+    #[doc = "2: Generic clock generator 1"]
+    GCLK1 = 0x2,
+    #[doc = "3: Generic clock generator 2"]
+    GCLK2 = 0x4,
+    #[doc = "4: Generic clock generator 3"]
+    GCLK3 = 0x8,
+    #[doc = "5: Generic clock generator 4"]
+    GCLK4 = 0x10,
+    #[doc = "6: Generic clock generator 5"]
+    GCLK5 = 0x20,
+    #[doc = "7: Generic clock generator 6"]
+    GCLK6 = 0x40,
+    #[doc = "8: Generic clock generator 7"]
+    GCLK7 = 0x80,
+    #[doc = "9: Generic clock generator 8"]
+    GCLK8 = 0x100,
 }
 impl From<GENCTRL7_A> for bool {
     #[inline(always)]
@@ -855,23 +855,23 @@ impl core::ops::Deref for GENCTRL7_R {
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum GENCTRL8_A {
     #[doc = "1: Generic clock generator 0"]
-    GCLK0 = 1,
-    #[doc = "1: Generic clock generator 1"]
-    GCLK1 = 1,
-    #[doc = "1: Generic clock generator 2"]
-    GCLK2 = 1,
-    #[doc = "1: Generic clock generator 3"]
-    GCLK3 = 1,
-    #[doc = "1: Generic clock generator 4"]
-    GCLK4 = 1,
-    #[doc = "1: Generic clock generator 5"]
-    GCLK5 = 1,
-    #[doc = "1: Generic clock generator 6"]
-    GCLK6 = 1,
-    #[doc = "1: Generic clock generator 7"]
-    GCLK7 = 1,
-    #[doc = "1: Generic clock generator 8"]
-    GCLK8 = 1,
+    GCLK0 = 0x1,
+    #[doc = "2: Generic clock generator 1"]
+    GCLK1 = 0x2,
+    #[doc = "3: Generic clock generator 2"]
+    GCLK2 = 0x4,
+    #[doc = "4: Generic clock generator 3"]
+    GCLK3 = 0x8,
+    #[doc = "5: Generic clock generator 4"]
+    GCLK4 = 0x10,
+    #[doc = "6: Generic clock generator 5"]
+    GCLK5 = 0x20,
+    #[doc = "7: Generic clock generator 6"]
+    GCLK6 = 0x40,
+    #[doc = "8: Generic clock generator 7"]
+    GCLK7 = 0x80,
+    #[doc = "9: Generic clock generator 8"]
+    GCLK8 = 0x100,
 }
 impl From<GENCTRL8_A> for bool {
     #[inline(always)]

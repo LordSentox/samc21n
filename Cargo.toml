@@ -9,7 +9,7 @@ vcell = "*"
 
 [dependencies.cortex-m-rt]
 optional = true
-version = "*"
+version = "0.7.0"
 
 [features]
-rt = ["cortex-m-rt/samc21n18a"]
+rt = ["cortex-m-rt/device"]
