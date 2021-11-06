@@ -1,0 +1,15 @@
+[package]
+name = "samc21n18a"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+cortex-m = "*"
+vcell = "*"
+
+[dependencies.cortex-m-rt]
+optional = true
+version = "*"
+
+[features]
+rt = ["cortex-m-rt/samc21n18a"]
